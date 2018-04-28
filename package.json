@@ -1,0 +1,22 @@
+{
+  "name": "snapshot-validator",
+  "version": "1.0.0",
+  "description": "A simple Node.js program to validate an IOTA snapshot.",
+  "main": "validate.js",
+  "scripts": {
+    "start": "node validate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iotaledger/snapshot-validator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iotaledger/snapshot-validator/issues"
+  },
+  "homepage": "https://github.com/iotaledger/snapshot-validator#readme",
+  "dependencies": {
+    "request": "^2.85.0"
+  }
+}
