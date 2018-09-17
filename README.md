@@ -23,8 +23,8 @@ npm install
 
 Open `validate.js` in an editor, and set the `iotaNode` and `snapshotUrl` variables appropriately. The `snapshotUrl` should point to the `Snapshot.txt` file included with a snapshot Pull Request to iotaledger/iri. Using the January 28, 2018 snapshot as an example:
 
-1. Locate the pull request files
-2. Find Snapshot.txt and click the "View" button
+1. Locate the pull request files: https://github.com/iotaledger/iri/pull/989/files
+2. Find SnapshotMainnet.txt and click the "View" button
 3. Click "View Raw"
 4. Copy the URL *after* the page loads - this should be used as the `snapshotUrl` in `validate.js`.
 
