@@ -21,7 +21,7 @@ npm install
 
 **Step 3.** Configure the local node and snapshot URLs.
 
-Open `validate.js` in an editor, and set the `iotaNode` and `snapshotUrl` variables appropriately. The `snapshotUrl` should point to the `Snapshot.txt` file included with a snapshot Pull Request to iotaledger/iri. Using the January 28, 2018 snapshot as an example:
+Open `validate.js` in an editor, and set the `iotaNode`, `snapshotUrl`, and `milestoneIndex` variables appropriately. The `snapshotUrl` should point to the `Snapshot.txt` file included with a snapshot Pull Request to iotaledger/iri. Using the January 28, 2018 snapshot as an example:
 
 1. Locate the pull request files: https://github.com/iotaledger/iri/pull/989/files
 2. Find SnapshotMainnet.txt and click the "View" button
