@@ -1,12 +1,9 @@
 var request = require('request');
 
-//URL for Snapshot.txt and milestoneIndex
-var args = process.argv.slice(2);
-
 // Declare API endpoint for the IOTA node
 var iotaNode = 'http://localhost:14265';
-var snapshotUrl = args[0];
-var milestoneIndex = args[1]
+var snapshotUrl = {PLACE HOLDER FOR SNAPHOT_URL};
+var milestoneIndex = {PLACE HOLDER FOR MILESTONE_INDEX};
 
 var snapshot = function() {
     var command = {
